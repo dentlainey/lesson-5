@@ -7,8 +7,8 @@
         <meta http-equiv="X-UA-Compatiable" content="IE=EDGE"> 
 
     <!--links to css files or font fonts-->   
- 
     <link rel="stylesheet" type='text/css' href="css/styles.css">
+    <link rel="stylesheet" type='text/css' href="css/framework.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     
     <title>Boiler Plate</title>
@@ -17,21 +17,35 @@
  
  </head>
     <body> 
-      <div id='container'>
-        <header id="header">
-        <h1> Web Ninja </h1>  
-        </header>
-            <nav id="nav"> 
-            <ul class='button wrap'>
-                <button> Schedule</button>
-                <button>CSS</button>
-                <button>HTML</button>
-                <button>Responsive Design</button>
-            </ul>
-            </nav>
+      <div class='row'> 
+        <div class='col-12 border'> 
+         <header id='header'>
+           
+             <h1> Web Ninja </h1>  
+          
+            </header>
 
-        <div id='middle wrapper'>
-         <div id='middle-wrapper-width'>
+       
+            </div>
+        </div>
+<!--End Header-->
+           <div class='row'> 
+                <div class='col-12 border'> 
+            <nav id='nav'>     
+                    <ul class='button wrap'>
+                        <button> Schedule</button>
+                        <button>CSS</button>
+                        <button>HTML</button>
+                        <button>Responsive Design</button>
+                </ul>
+            </nav>
+        </div>
+ 
+                   
+    </div>
+<!--End Menu-->
+        <div class='row'> 
+         <div class='col-8 border'>
             <div id='main-content-wrapper'>
              <div class= 'side-by-side'>
                 <section class='image-content'> 
@@ -57,7 +71,9 @@
                 
                 </section>
                 </div>
-           <!--end of main-content-wrapper--> 
+            </div>
+           <div class='col-4 border'> 
+               <!--end of main-content-wrapper--> 
              <div id="aside-content-wrapper">
                 <aside id= 'aside-right'>
                     <h3> Latest Work</h3>
@@ -72,23 +88,30 @@
                  </aside>
                </div>
              <!-- end-of-aside-content-wrapper--> 
-             <!-- end max-width-->
              </div>
             <!--end of middle-wrapper--> 
-             
-             
              </div>
+             
+        
             
 <!--End of middle-wrapper-->
-    </div> 
-          <div id= 'favorite-sites'>
-          <ul> 
-              <li><img src= 'http://thehydrocafe.com/wp-content/uploads/2015/05/official-facebook-logo-slide.jpg'> </li>
-              <li> <img src= 'https://www.wired.com/wp-content/uploads/2015/09/google-logo.jpg'> </li> 
-              <li> <img src='http://www.socialflow.com/wp-content/uploads/2016/04/twitter1.png'></li>
-          </ul>
+     <div id='favorite sites' class='row'> 
+        
+         <div id= 'col-4 border'>
+          <img src= 'images/facebook.png'>
+            </div>
+        <div id= 'col-4 border'>
+             <img src= 'images/google.jpg'> 
+            </div>
+                  
+        <div id= 'col-4 border'>
+            <img src='images/twitter.png'>
           </div>
-          
-         
+    </div>
+          <div class='row'>
+        <div class='col-12 border'>
+              <footer> Footy</footer>
+        </div>
+      </div>   
 <!--End of container-->
  <footer> Footy</footer>
